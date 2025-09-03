@@ -1,0 +1,12 @@
+sqlalchemy
+pandas
+streamlit
+joblib
+pathlib
+sentence_transformers
+pymysql
+python-dotenv
+matplotlib
+seaborn
+scikit-learn
+xgboost
