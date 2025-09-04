@@ -17,12 +17,3 @@ venv/
 .vscode/
 .idea/
 .DS_Store
-
-# Data
-data/
-*.csv
-*.xlsx
-
-# Models
-models/
-*.pkl
