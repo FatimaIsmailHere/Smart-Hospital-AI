@@ -34,7 +34,7 @@ def run_eda(csv_path="data/hospital_dataset.csv"):
     plt.savefig(visual_path / "correlation_heatmap.png")
     plt.close()
 
-    summary_file = Path("summary_report.txt")
+    summary_file = Path("reports/summary_report.txt")
     with open(summary_file, "w") as f:
         f.write(f"Total patients: {df['PatientID'].nunique()}\n")
         f.write(f"Average age: {round(df['Age'].mean(),1)}\n")
