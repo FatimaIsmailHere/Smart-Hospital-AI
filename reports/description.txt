@@ -1,0 +1,20 @@
+📖 Project Description
+Smart Hospital AI is a 4-in-1 hospital intelligence dashboard that supports doctors,
+nurses, and administrators with predictive insights and recommendations.
+
+🔄 Workflow:
+Data Input – Patient data is entered into the system.
+Risk Prediction – An XGBoost model classifies patients into High, Medium, or Low risk.
+Case Retrieval – SentenceTransformers + TiDB Vector Search fetch similar past patient cases.
+AI Recommendations – An LLM generates actionable suggestions based on predictions and retrieved cases.
+Insights Dashboard – Dash + Plotly visualize hospital-wide patterns, including ER surge simulations and resource allocation advice.
+
+✨ Key Features:
+Prediction Result – Patient risk classification.
+Similar Patient Cases – Evidence-based context retrieval.
+AI Recommendations – Staff/treatment guidance.
+Hospital Insights – Aggregated metrics and surge simulations.
+
+By combining prediction, retrieval, recommendations, and insights into a seamless workflow,
+Smart Hospital AI transforms raw hospital data into a real-time decision-support system, enabling 
+better patient care, optimized resources, and proactive crisis management.
