@@ -69,7 +69,7 @@ OPENAI_API_KEY=your_openai_key
 ```bash
 python dashboard.py
 ```
-
+Wait few Minutes for Updating
 App will be available at → **[http://127.0.0.1:8050/](http://127.0.0.1:8050/)**
 
 ---
@@ -103,7 +103,8 @@ This project is licensed under the **MIT License** – see [LICENSE](LICENSE) fi
 ---
 <img width="1876" height="862" alt="image" src="https://github.com/user-attachments/assets/b942ec29-15a8-42ce-842c-35dc266915cf" />
 <img width="1877" height="730" alt="1b" src="https://github.com/user-attachments/assets/61f28a82-7120-46f5-a39e-40699af777c8" />
-<img width="1897" height="781" alt="1c" src="https://github.com/user-attachments/assets/b81889a5-b87a-4926-9e0d-3c41a2206bbe" />
+<img width="1881" height="781" alt="1c" src="https://github.com/user-attachments/assets/4b48ced5-b406-4339-a9d6-5e7757eecad1" />
+
 
 
 
