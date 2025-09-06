@@ -30,7 +30,34 @@
 Python, XGBoost, SentenceTransformers, TiDB Serverless, TiDB Vector Search, OpenAI, Dash, Plotly, Pandas, NumPy, Joblib, dotenv, PyMySQL
 
 ---
+## 🗄️ TiDB Table & Vector Index
 
+This project uses TiDB Cloud with a vector-enabled table for semantic search.
+
+## 📊 Table Schema
+CREATE TABLE patients (
+    PatientID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Age INT,
+    Gender VARCHAR(10),
+    Diagnoses TEXT,
+    LabOrders TEXT,
+    Medications TEXT,
+    ReadmissionRisk VARCHAR(20),
+    PriorAdmissions INT,
+    ClinicalNotes TEXT,
+    AdmissionDate DATE,
+    DischargeDate DATE,
+    Department VARCHAR(50),
+    Outcome VARCHAR(20),
+    note_embedding VECTOR(384) 
+);
+
+## ⚡ Vector Index
+ALTER TABLE patients
+ADD VECTOR INDEX idx_note_embedding (note_embedding);
+
+---
 ## ⚡ Installation & Running
 
 ### 1️⃣ Clone the repo
